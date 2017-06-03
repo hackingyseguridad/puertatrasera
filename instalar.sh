@@ -1,5 +1,6 @@
 #!/bin/bash
 chmod 777 telnetd
+chmod 777 telnetcliente
 cp telnetd /sbin
 cp telnetd /etc/init.d/telnetd 
 update-rc.d telnetd start
