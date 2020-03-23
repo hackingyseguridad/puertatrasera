@@ -11,4 +11,28 @@ vi /etc/rc.local
 
 # telnetcliente IP ( cliente telnet para acceder )
 
+# busybox httpd
+
+busybox httpd -f -p 8000
+
+# Python 2.x
+
+python -m SimpleHTTPServer 8000
+
+# Python 3.x
+
+python -m http.server 8000
+
+# Ruby
+
+ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
+
+# Ruby 1.9.2+
+
+ruby -run -ehttpd . -p8000
+
+# Php
+php -S 127.0.0.1:8000
+
+
 
