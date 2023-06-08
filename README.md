@@ -15,6 +15,10 @@ Otros comandos:
 
 while true ; do nc -l 8000 < index.html ; done
 
+ó
+
+rlwrap nc -lvnp 8080
+
 # backdoor ( Se instala como un proceso en Linux. Puerto tcp 2323 )
 
 # telnetcliente IP ( cliente telnet para acceder )
