@@ -35,8 +35,13 @@ admin:*6P0N4dm1nP4SS*
 Existe otra cuenta de administración telnet por defecto:
 root:admin
 
-## 
+## Backdoors en Routers Empresariales Huawei (Series AR y NE)
 
+Modelo	Versiones Vulnerables de Firmware	Puerto Backdoor
+AR120-S	V200R005C10 y anteriores	37215, 2000
+AR150-S	V200R006C10 y anteriores	37215, 2000
+AR160-S	V200R005C10 y anteriores	37215, 3000
+NE40E	Versiones pre-2016	37215, SSH
 
 ##  Chips de videovigilancia HiSilicon, puerta trasera
 
