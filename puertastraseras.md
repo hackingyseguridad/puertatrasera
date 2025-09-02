@@ -8,7 +8,6 @@ Puerta trasera ("backdoor") oculto en el software de equipos Huawei; puerto "dis
 https://www.bloomberg.com/news/articles/2019-04-30/vodafone-found-hidden-backdoors-in-huawei-equipment
 https://www.theguardian.com/technology/2019/apr/30/alleged-huawei-router-backdoor-is-standard-networking-tool-says-firm
 https://www.exploit-db.com/exploits/45971
-
 https://comunidad.movistar.es/t5/Soporte-M%C3%B3vil/Configuraci%C3%B3n-de-router-B315s-22-con-tarjeta-SIM/td-p/4128607
 
 ## Huawei,  routers series: HGxxx, EchoLife
