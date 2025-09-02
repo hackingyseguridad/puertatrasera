@@ -11,6 +11,7 @@ https://www.theregister.com/2019/04/30/huawei_enterprise_router_backdoor_is_teln
 https://www.exploit-db.com/exploits/45971
 https://www.4gltemall.com/blog/huawei-b315s-22-4g-lte-wifi-router-review/
 https://comunidad.movistar.es/t5/Soporte-M%C3%B3vil/Configuraci%C3%B3n-de-router-B315s-22-con-tarjeta-SIM/td-p/4128607
+https://wwulbou.medium.com/huawei-hg532d-rce-exploit-ef2639db25b4
 
 ## Huawei,  routers series: HGxxx, EchoLife
 
