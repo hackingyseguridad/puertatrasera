@@ -35,6 +35,13 @@ admin:*6P0N4dm1nP4SS*
 Existe otra cuenta de administración telnet por defecto:
 root:admin
 
+## 
+
+https://www.zdnet.com/article/researcher-backdoor-mechanism-still-active-in-many-iot-products/
+
+
+
+
 
 
 
