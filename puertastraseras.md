@@ -63,7 +63,7 @@ https://www.zdnet.com/article/researcher-backdoor-mechanism-still-active-in-many
 https://www.huawei.com/en/psirt/security-notices/2020/huawei-sn-20200205-01-hisilicon-en
 https://ipvm.com/reports/backdoor-9530
 
-## Técnicas de Exfiltración de Datos
+## Técnicas de exfiltración de datos
 
 Si un dispositivo está comprometido, el siguiente paso es enviar la información robada sin ser detectado. Las técnicas teóricas incluyen:
 
@@ -75,7 +75,7 @@ Almacenamiento y Envío Diferido: En lugar de enviar datos inmediatamente, se al
 
 Uso de Puertos Comunes: Usar puertos estándar como el HTTP (80), HTTPS (443) o DNS (53) para la exfiltración, ya que bloquearlos rompería la funcionalidad básica de Internet. La clave no es el puerto, sino el contenido malicioso dentro del tráfico permitido.
 
-## Abuso de Funciones Legítimas de Mantenimiento
+## Abuso de funciones Legítimas de mantenimiento
 
 El mayor riesgo potencial es el mal uso de características necesarias para el funcionamiento de la red.
 
@@ -83,4 +83,12 @@ Proceso de Actualizaciones (OTA): El mecanismo para enviar actualizaciones de fi
 
 Acceso Remoto para Soporte: Los operadores de red necesitan herramientas de acceso remoto para el diagnóstico y mantenimiento. Si estas herramientas tienen vulnerabilidades ocultas o funcionalidades secretas, podrían ser explotadas.
 
+# Vulnerabilidades CVE, 
 
+Otra forma de tener acceso a los equipos, dificil de relaccionar con el favbircante y evidenciar, serian las vulnerabilidades conocidas, CVE de OpenSSH, Telnet, ...
+
+Otra forma seria, tener un codigo de programación, que permite explotar fallos y obtener acceso, exfiltración de datos
+
+
+
+http://www.hackingyseguridad.com/
