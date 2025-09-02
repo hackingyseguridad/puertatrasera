@@ -63,6 +63,24 @@ https://www.zdnet.com/article/researcher-backdoor-mechanism-still-active-in-many
 https://www.huawei.com/en/psirt/security-notices/2020/huawei-sn-20200205-01-hisilicon-en
 https://ipvm.com/reports/backdoor-9530
 
+## Técnicas de Exfiltración de Datos
 
+Si un dispositivo está comprometido, el siguiente paso es enviar la información robada sin ser detectado. Las técnicas teóricas incluyen:
+
+Tunelización DNS: Codificar los datos robados dentro de consultas DNS normales. Como el DNS es vital para Internet, rara vez se bloquea o inspecciona en profundidad, lo que lo convierte en un canal encubierto perfecto.
+
+Camuflaje con Tráfico Legítimo: Enviar pequeños paquetes de datos ocultos dentro del tráfico web normal y cifrado (HTTPS) hacia un servidor malicioso que parece legítimo. Esto parece actividad normal del usuario.
+
+Almacenamiento y Envío Diferido: En lugar de enviar datos inmediatamente, se almacenan en una partición oculta y se envían más tarde durante períodos de alto tráfico o cuando el dispositivo está inactivo, para pasar desapercibidos.
+
+Uso de Puertos Comunes: Usar puertos estándar como el HTTP (80), HTTPS (443) o DNS (53) para la exfiltración, ya que bloquearlos rompería la funcionalidad básica de Internet. La clave no es el puerto, sino el contenido malicioso dentro del tráfico permitido.
+
+## Abuso de Funciones Legítimas de Mantenimiento
+
+El mayor riesgo potencial es el mal uso de características necesarias para el funcionamiento de la red.
+
+Proceso de Actualizaciones (OTA): El mecanismo para enviar actualizaciones de firmware es vital. Un actor malintencionado con control sobre este sistema podría distribuir una actualización maliciosa disfrazada de parche de seguridad, instalando spyware a escala masiva con el "permiso" del sistema.
+
+Acceso Remoto para Soporte: Los operadores de red necesitan herramientas de acceso remoto para el diagnóstico y mantenimiento. Si estas herramientas tienen vulnerabilidades ocultas o funcionalidades secretas, podrían ser explotadas.
 
 
