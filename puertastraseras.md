@@ -11,8 +11,7 @@ https://www.exploit-db.com/exploits/45971
 
 https://comunidad.movistar.es/t5/Soporte-M%C3%B3vil/Configuraci%C3%B3n-de-router-B315s-22-con-tarjeta-SIM/td-p/4128607
 
-
-
+## Huawei,  routers series: HGxxx, EchoLife
 
 
 
