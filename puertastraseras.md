@@ -17,6 +17,14 @@ Se identifico  en el puerto 37215/tcp servicio que permitía el acceso no autent
 
 https://e.huawei.com/es/products/optical-terminal/echolife-eg8145v5
 
-
+Huawei HG8245, firm:V1R006C00S100, 
+Fecha de publicación:	09/12/2013
+Severidad:	Muy alta
+Solución:	Deshabilitar acceso WAN-side de HTTP y Telnet.
+No es posible cambiar la contraseña de la cuenta de administración web: admin
+La puerta trasera consiste en una cuenta de administración web por defecto a la cual no se le puede cambiar la contraseña. La cuenta de administración web por defecto en esta versión de software es:
+admin:*6P0N4dm1nP4SS*
+Existe otra cuenta de administración telnet por defecto:
+root:admin
 
 
