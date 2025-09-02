@@ -16,7 +16,17 @@ https://comunidad.movistar.es/t5/Soporte-M%C3%B3vil/Configuraci%C3%B3n-de-router
 Se identifico  en el puerto 37215/tcp servicio que permitía el acceso no autenticado ( interface WAN ) o con credenciales por defecto ocultas exponiendo una shell de administración. - también, se argumentó que era para el mantenimiento remoto del ISP.
 
 El investigador de seguridad Felix "FX" Lindner y su equipo de Recurity Labs descubrieron esta puerta trasera en muchos routers Huawei, incluidos los modelos EchoLife.
+El funcionamiento era el siguiente:
 
+Un atacante se conectaba al puerto 37215 del router desde internet o desde la red local.
+
+El servicio en este puerto pedía una contraseña.
+
+Los investigadores descubrieron que si se enviaba un hash de contraseña específico y predefinido (0x2378216f4f3d5e316c2e7a22432d4851), el sistema lo aceptaba.
+
+Tras la aceptación, el atacante obtenía acceso a una terminal de root (shell) en el dispositivo. Esto es el nivel de acceso más alto posible, equivalente a un control total absoluto.
+
+Esto eludía por completo la página de inicio de sesión web normal y todas las medidas de seguridad.
 
 https://e.huawei.com/es/products/optical-terminal/echolife-eg8145v5
 
