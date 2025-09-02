@@ -54,6 +54,7 @@ https://e.huawei.com/mx/products/routers/ne40e
 ##  Chips de videovigilancia HiSilicon, puerta trasera
 
 Puerta trasera (backdoor) en la cámara Huawei HiWatch DS-2CD9530FWD-I8 (y otros modelos)
+Huawei lanzó un parche de firmware para "solucionar" el problema. La "solución" consistió en deshabilitar el puerto 9530 por defecto, pero sin explicar satisfactoriamente por qué existía en primer lugar o por qué permitía el acceso no autenticado al video.
 
 https://www.zdnet.com/article/researcher-backdoor-mechanism-still-active-in-many-iot-products/
 https://www.huawei.com/en/psirt/security-notices/2020/huawei-sn-20200205-01-hisilicon-en
