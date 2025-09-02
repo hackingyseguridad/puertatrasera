@@ -51,14 +51,10 @@ Protocolos de gestión propietarios: Huawei  protocolos internos (ej: NetConf so
 
 ##  Chips de videovigilancia HiSilicon, puerta trasera
 
+Puerta trasera (backdoor) en la cámara Huawei HiWatch DS-2CD9530FWD-I8 (y otros modelos)
+
 https://www.zdnet.com/article/researcher-backdoor-mechanism-still-active-in-many-iot-products/
 https://www.huawei.com/en/psirt/security-notices/2020/huawei-sn-20200205-01-hisilicon-en
-
-
-
-
-
-
 https://ipvm.com/reports/backdoor-9530
 
 
