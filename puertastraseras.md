@@ -38,7 +38,7 @@ root:admin
 ## 
 
 https://www.zdnet.com/article/researcher-backdoor-mechanism-still-active-in-many-iot-products/
-
+https://www.huawei.com/en/psirt/security-notices/2020/huawei-sn-20200205-01-hisilicon-en
 
 
 
