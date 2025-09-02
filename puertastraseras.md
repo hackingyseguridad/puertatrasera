@@ -15,6 +15,8 @@ https://comunidad.movistar.es/t5/Soporte-M%C3%B3vil/Configuraci%C3%B3n-de-router
 
 Se identifico  en el puerto 37215/tcp servicio que permitía el acceso no autenticado ( interface WAN ) o con credenciales por defecto ocultas exponiendo una shell de administración. - también, se argumentó que era para el mantenimiento remoto del ISP.
 
+https://e.huawei.com/es/products/optical-terminal/echolife-eg8145v5
+
 
 
 
