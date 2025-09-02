@@ -47,7 +47,7 @@ AR160-S	V200R005C10 y anteriores	37215, 3000
 
 NE40E	Versiones pre-2016	37215, SSH
 
-Protocolos de gestión propietarios: Huawei  protocolos internos (ej: NetConf sobre SSH), credenciales triviales root/admin123 . puertos tcp: 820, 22
+Protocolos de gestión propietarios: Huawei  protocolos internos (ej: NetConf sobre SSH), credenciales triviales root/admin123.puertos tcp: 820, 22
 
 https://e.huawei.com/mx/products/routers/ne40e 
 
