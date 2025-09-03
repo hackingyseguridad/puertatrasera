@@ -95,7 +95,7 @@ https://www.gov.uk/government/publications/huawei-cyber-security-evaluation-cent
 
 https://www.gov.uk/government/publications/huawei-cyber-security-evaluation-centre-oversight-board-annual-report-2020 
 
-resumen del informe de 2022, "puertas traseras" deliberadas no se fundamento en las revisiones pero sí la mala calidad del código y los procesos de Huawei se consideraron un riesgo de seguridad igual de grave
+resumen del informe de 2022, Huawei Cyber Security Evaluation Centre (HCSEC) Oversight Board del Reino Unido "puertas traseras" deliberadas no se fundamento en las revisiones pero sí la mala calidad del código y los procesos de Huawei se consideraron un riesgo de seguridad igual de grave
 
 
 
