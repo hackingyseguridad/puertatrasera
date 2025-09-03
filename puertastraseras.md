@@ -102,6 +102,11 @@ resumen del informe de 2022, Huawei Cyber Security Evaluation Centre (HCSEC) Ove
 El Artículo 7 de la Ley de Inteligencia Nacional de China (2017), que establece que las "organizaciones y ciudadanos" deben "apoyar, asistir y cooperar con el trabajo de inteligencia nacional".
 La interpretación occidental: Gobiernos como el de EE. UU. y la UE argumentan que esta ley obliga legalmente a cualquier empresa china (incluida Huawei) a colaborar con los servicios de inteligencia del gobierno si se les solicita, potencialmente instalando "puertas traseras" o entregando datos de forma encubierta.
 
+Riesgo Jurídico: La ley china permite teóricamente que el gobierno obligue a Huawei a colaborar, lo que crea un riesgo inherente e inaceptable para la infraestructura crítica de otros países.
+
+Riesgo Geopolítico: En un escenario de conflicto o tensión extrema, China podría potencialmente ordenar a Huawei que active capacidades dormidas o aproveche vulnerabilidades para interrumpir servicios.
+
+Conclusión
 
 
 http://www.hackingyseguridad.com/
