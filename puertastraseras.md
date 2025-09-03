@@ -87,7 +87,11 @@ Acceso Remoto para Soporte: Los operadores de red necesitan herramientas de acce
 
 Otra forma de tener acceso a los equipos, dificil de relaccionar con el favbircante y evidenciar, serian las vulnerabilidades conocidas, CVE de OpenSSH, Telnet, ...
 
-Otra forma seria, tener un codigo de programación, que permite explotar fallos y obtener acceso, exfiltración de datos
+Otra forma seria, codigo en la programación de estos equipos, que permitiria explotar fallos y obtener acceso, exfiltración de datos
+
+https://www.gov.uk/government/publications/huawei-cyber-security-evaluation-centre-hcsec-oversight-board-annual-report-2021 
+
+
 
 
 
