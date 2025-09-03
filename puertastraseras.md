@@ -113,6 +113,6 @@ Riesgo Jurídico: La ley china permite teóricamente que el gobierno obligue a H
 Riesgo Geopolítico: En un escenario de conflicto o tensión extrema, China podría potencialmente ordenar a Huawei que active capacidades dormidas o aproveche vulnerabilidades para interrumpir servicios.
 
 Conclusión
-
+Técnicamente, no hay pruebas públicas verificadas de que existan.
 
 http://www.hackingyseguridad.com/
