@@ -97,6 +97,11 @@ https://www.gov.uk/government/publications/huawei-cyber-security-evaluation-cent
 
 resumen del informe de 2022, Huawei Cyber Security Evaluation Centre (HCSEC) Oversight Board del Reino Unido "puertas traseras" deliberadas no se fundamento en las revisiones pero sí la mala calidad del código y los procesos de Huawei se consideraron un riesgo de seguridad igual de grave
 
+## En el contexto legal 
+
+El Artículo 7 de la Ley de Inteligencia Nacional de China (2017), que establece que las "organizaciones y ciudadanos" deben "apoyar, asistir y cooperar con el trabajo de inteligencia nacional".
+La interpretación occidental: Gobiernos como el de EE. UU. y la UE argumentan que esta ley obliga legalmente a cualquier empresa china (incluida Huawei) a colaborar con los servicios de inteligencia del gobierno si se les solicita, potencialmente instalando "puertas traseras" o entregando datos de forma encubierta.
+
 
 
 http://www.hackingyseguridad.com/
