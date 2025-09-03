@@ -56,11 +56,8 @@ https://e.huawei.com/mx/products/routers/ne40e
 
 el puerto 37215/tcp, se usa habitualmente en esto equipos para el servivio TR-069, CWMP (CPE WAN Management Protocol), que se usa para gestionar de forma remota los routers (EDCs) de sus clientes: 
 Acceso Remoto: Este servicio concede un nivel muy alto de acceso y control al ISP. El router "llama" periódicamente a un servidor del ISP (ACS) para recibir órdenes.
-
 Puerto Expuesto en Internet: A menudo, este servicio está escuchando en la IP WAN (la dirección pública de tu router). Esto significa que, en teoría, es accesible desde Internet, no solo desde la red local.
-
-Vulnerabilidades: Este protocolo y sus implementaciones en routers específicos han tenido históricamente vulnerabilidades críticas. Investigadores de seguridad han encontrado fallos que permitían tomar el control completo del router.
-
+Vulnerabilidades: Este protocolo y sus implementaciones en routers específicos han tenido históricamente vulnerabilidades críticas. Investigadores de seguridad han encontrado fallos que permitían tomar el control completo del router. https://github.com/hackingyseguridad/cwmp
 Puerta Trasera Involuntaria: Una vulnerabilidad en este servicio puede ser explotada por ciberatacantes, convirtiendo una herramienta de gestión legítima en una "puerta trasera" involuntaria hacia tu red doméstica.
 
 ##  Chips de videovigilancia HiSilicon, puerta trasera
