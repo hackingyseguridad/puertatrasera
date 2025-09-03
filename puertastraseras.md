@@ -53,6 +53,7 @@ NE40E	Versiones pre-2016	37215, SSH
 Protocolos de gestión propietarios: Huawei  protocolos internos (ej: NetConf sobre SSH), credenciales triviales root/admin123.puertos tcp: 820, 22
 
 https://e.huawei.com/mx/products/routers/ne40e 
+https://wwulbou.medium.com/huawei-hg532d-rce-exploit-ef2639db25b4
 
 el puerto 37215/tcp, se usa habitualmente en esto equipos para el servivio TR-069, CWMP (CPE WAN Management Protocol), que se usa para gestionar de forma remota los routers (EDCs) de sus clientes: 
 Acceso Remoto: Este servicio concede un nivel muy alto de acceso y control al ISP. El router "llama" periódicamente a un servidor del ISP (ACS) para recibir órdenes.
