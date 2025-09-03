@@ -1,6 +1,6 @@
 ## Puertas traseras en routers
 
-puertas traseras: servicios encubiertos que se activan bajo ciertas ssecuencias, servicios oficiales del equipo:  SSH, Telnet o TR-069, Hardware (Nivel de Chip)
+puertas traseras: servicios encubiertos que se activan bajo ciertas secuencias, servicios oficiales del equipo:  SSH, Telnet o TR-069, Hardware (Nivel de Chip)
 
 ## Huawei B315s-22.- Router Huawei Home Gateway WiFi 4G/LTE
 
