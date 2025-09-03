@@ -87,11 +87,15 @@ Acceso Remoto para Soporte: Los operadores de red necesitan herramientas de acce
 
 Otra forma de tener acceso a los equipos, dificil de relaccionar con el favbircante y evidenciar, serian las vulnerabilidades conocidas, CVE de OpenSSH, Telnet, ...
 
+
+
 Otra forma seria, codigo en la programación de estos equipos, que permitiria explotar fallos y obtener acceso, exfiltración de datos
 
 https://www.gov.uk/government/publications/huawei-cyber-security-evaluation-centre-hcsec-oversight-board-annual-report-2021 
 
+https://www.gov.uk/government/publications/huawei-cyber-security-evaluation-centre-oversight-board-annual-report-2020 
 
+resumen del informe de 2022, "puertas traseras" deliberadas no se fundamento en las revisiones pero sí la mala calidad del código y los procesos de Huawei se consideraron un riesgo de seguridad igual de grave
 
 
 
