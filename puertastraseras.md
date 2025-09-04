@@ -1,3 +1,8 @@
+
+# Contexto actual
+
+https://www.xatakamovil.com/huawei/gobierno-frena-contrato-10-millones-telefonica-que-incluia-equipos-huawei-presion-estados-unidos-europa
+
 ## Puertas traseras en routers
 
 puertas traseras: servicios encubiertos que se activan bajo ciertas secuencias, servicios oficiales del equipo:  SSH, Telnet o TR-069, Hardware (Nivel de Chip)
