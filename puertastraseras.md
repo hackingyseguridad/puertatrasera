@@ -92,6 +92,8 @@ Almacenamiento y Envío Diferido: En lugar de enviar datos inmediatamente, se al
 
 Uso de Puertos Comunes: Usar puertos estándar como el HTTP (80), HTTPS (443) o DNS (53) para la exfiltración, ya que bloquearlos rompería la funcionalidad básica de Internet. La clave no es el puerto, sino el contenido malicioso dentro del tráfico permitido.
 
+Llamada a casa, programación oculta para hacer una conexión, envio de información 
+
 ## Abuso de funciones Legítimas de mantenimiento
 
 El mayor riesgo potencial es el mal uso de características necesarias para el funcionamiento de la red.
