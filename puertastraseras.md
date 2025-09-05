@@ -67,6 +67,10 @@ Puerto Expuesto en Internet: A menudo, este servicio está escuchando en la IP W
 Vulnerabilidades: Este protocolo y sus implementaciones en routers específicos han tenido históricamente vulnerabilidades críticas. Investigadores de seguridad han encontrado fallos que permitían tomar el control completo del router. https://github.com/hackingyseguridad/cwmp
 Puerta Trasera Involuntaria: Una vulnerabilidad en este servicio puede ser explotada por ciberatacantes, convirtiendo una herramienta de gestión legítima en una "puerta trasera" involuntaria hacia tu red doméstica.
 
+## Secuencia paquete TCP, puerto 1000, puerto 2000 y puerto 3000
+
+técnica llamada "TCP Sequence Number Attack", una secuencia de flags TCP, en un determinado tiempo y orden, enviado a varios puertos, activiaria servicios o puertas traseras ocultas,
+
 ##  Chips de videovigilancia HiSilicon, puerta trasera
 
 Puerta trasera (backdoor) en la cámara Huawei HiWatch DS-2CD9530FWD-I8 (y otros modelos)
