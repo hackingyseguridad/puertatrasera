@@ -1,7 +1,11 @@
-# puertatrasera
+<img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/ia/blob/main/banner.png">
+
+---
+
+### puertatrasera
 Simples Script en distintos lenguakes, para crear una backdoor o puertra trasera
 
-# instalar.sh 
+### instalar.sh 
 ( Ejecutar sh instalar.sh para instalar en el sistema que queremos dejar el backdoor residente ). 
 Si no funciona editamos el fichero rc.local e incluimos la linea con el scipt:
 
