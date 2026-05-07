@@ -15,7 +15,7 @@ vi /etc/rc.local
 
 Otros comandos:
 
-# netcat
+### netcat
 
 while true ; do nc -l 8000 < index.html ; done
 
@@ -23,31 +23,31 @@ while true ; do nc -l 8000 < index.html ; done
 
 rlwrap nc -lvnp 8080
 
-# backdoor ( Se instala como un proceso en Linux. Puerto tcp 2323 )
+### backdoor ( Se instala como un proceso en Linux. Puerto tcp 2323 )
 
-# telnetcliente IP ( cliente telnet para acceder )
+### telnetcliente IP ( cliente telnet para acceder )
 
-# busybox httpd
+### busybox httpd
 
 busybox httpd -f -p 8000
 
-# Python 2.x
+### Python 2.x
 
 python -m SimpleHTTPServer 8000
 
-# Python 3.x
+### Python 3.x
 
 python -m http.server 8000
 
-# Ruby
+### Ruby
 
 ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
 
-# Ruby 1.9.2+
+### Ruby 1.9.2+
 
 ruby -run -ehttpd . -p8000
 
-# Php
+### Php
 php -S 127.0.0.1:8000
 
 
