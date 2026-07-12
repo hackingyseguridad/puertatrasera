@@ -14,9 +14,6 @@ Simples Script en distintos lenguakes, para crear una backdoor o puertra trasera
 - [Detalles de los Scripts](#-detalles-de-los-scripts)
 - [Instalación y Uso](#-instalación-y-uso)
 - [Ejemplos de Backdoors Alternativos](#-ejemplos-de-backdoors-alternativos)
-- [Puertas Traseras en Dispositivos Reales (Contexto)](#-puertas-traseras-en-dispositivos-reales-contexto)
-- [Seguridad y Advertencias](#-seguridad-y-advertencias)
-- [Licencia](#-licencia)
 
 ---
 
