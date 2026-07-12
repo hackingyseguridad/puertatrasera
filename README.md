@@ -27,7 +27,7 @@ Simples Script en distintos lenguakes, para crear una backdoor o puertra trasera
 
 ---
 
-## 📁 Archivos del Repositorio
+### Archivos del Repositorio
 
 | Archivo                  | Tipo       | Descripción                                      | Idioma    |
 |--------------------------|------------|--------------------------------------------------|-----------|
@@ -43,7 +43,7 @@ Simples Script en distintos lenguakes, para crear una backdoor o puertra trasera
 
 ---
 
-## 🔍 Detalles de los Scripts
+### Scripts
 
 ### 1. `backdoor.c` (Backdoor en C)
 
