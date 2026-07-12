@@ -81,11 +81,17 @@ sudo ./instalar.sh
 
 ### Serbidores HTTP temporales:
 
-Lenguaje,Comando
-BusyBox,busybox httpd -f -p 8000
-Python 2,python -m SimpleHTTPServer 8000
-Python 3,python -m http.server 8000
-Ruby,"ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'"
-PHP,php -S 127.0.0.1:8000
+| Lenguaje | Comando |
+|----------|---------|
+| BusyBox | busybox httpd -f -p 8000 |
+| Python 2 | python -m SimpleHTTPServer 8000 |
+| Python 3 | python -m http.server 8000 |
+| Ruby | ruby -rwebrick -e 'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start' |
+| PHP | php -S 127.0.0.1:8000 |
+
+
+#
+http://www.hackingyseguridad.com/ 
+#
 
 
