@@ -72,6 +72,13 @@ execl("/bin/sh", "sh", NULL);
 
 ```
 
+### Instalacion y uso:
+
+git clone https://github.com/hackingyseguridad/puertatrasera.git
+cd puertatrasera
+chmod +x instalar.sh
+sudo ./instalar.sh
+
 ### Serbidores HTTP temporales:
 
 Lenguaje,Comando
